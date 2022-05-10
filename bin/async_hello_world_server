@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+usage = """
+% async_hello_world_server port base_url
+"""
+
+try:
+    from hello_jupyter_server_proxy import async_hello_server
+    async_hello_server.script()
+except Exception as e:
+    print("Exception", e)
+    print(usage)
+    raise
