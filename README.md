@@ -52,7 +52,7 @@ entry points and uses them to set up proxy server plugins.
 
 # ./hello_jupyter_server_proxy/__init__.py
 
-This is the module initialer file which imports the `setup_hello_server`
+This is the module initializer file which imports the `setup_hello_server`
 function so it can be accessed as `hello_jupyter_server_proxy.setup_hello_server`
 by the Jupyter server.
 
