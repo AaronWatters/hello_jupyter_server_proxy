@@ -1,5 +1,6 @@
 # hello_jupyter_server_proxy
-Hello world example of an async web server hosted using jupyter server proxy
+Hello world example of an async web server hosted using the Jupyter server proxy
+mechanism.
 
 # Experimental install
 
@@ -16,6 +17,12 @@ Jupyter server proxy implementation.
 </a>
 I hope this example will be useful to help people like me
 set up more realistic instances of proxy servers.
+
+Jupyter server proxies allow Jupyter servers to host
+other sorts of web servers.  This is useful because it allows
+other web technologies to be deployed using the same tools
+that deploy Jupyter (and deploy containers, set up proxies,
+establish HTTPS support, and all that other stuff).
 
 Below is an outline of the different files in the repository
 and their purpose.
